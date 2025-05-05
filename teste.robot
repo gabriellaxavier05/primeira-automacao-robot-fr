@@ -1,6 +1,9 @@
 *** Settings ***
 Library    BuiltIn
 
+*** Variables ***
+${NOME}    Gabriella #Criação da variável
+
 *** Test Cases ***
-Meu primeiro teste com Robot Framework
-    Log To Console    Hello, Robot Framework!
+Exibir Nome
+    Log To Console    Esse é meu nome: ${NOME} #Exibe o nome no console
