@@ -4,6 +4,10 @@ Library    BuiltIn
 *** Variables ***
 ${NOME}    Gabriella  #Criação da variável
 
+*** Keywords ***
+Exibir Mensagem    # Criação da keyword
+    Log To Console    Esse é meu nome: ${NOME}  #Exibe o nome no console
+
 *** Test Cases ***
 Exibir Nome
-    Log To Console    Esse é meu nome: ${NOME}  #Exibe o nome no console
+    Exibir Mensagem  # Chama a keyword criada acima

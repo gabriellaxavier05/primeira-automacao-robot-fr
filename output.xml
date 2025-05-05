@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2.2 (Python 3.13.3 on win32)" generated="2025-05-05T16:37:57.069961" rpa="false" schemaversion="5">
+<robot generator="Robot 7.2.2 (Python 3.13.3 on win32)" generated="2025-05-05T16:41:11.335478" rpa="false" schemaversion="5">
 <suite id="s1" name="Teste" source="C:\Users\gabri\OneDrive\Documentos\Estudos\Cursos\Autodidata\Testes - QA\Testes realizados\Automacao\Robot Framework\primeira-automacao-robot-fr\teste.robot">
-<test id="s1-t1" name="Exibir Nome" line="8">
+<test id="s1-t1" name="Exibir Nome" line="13">
+<kw name="Exibir Mensagem">
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Esse é meu nome: ${NOME}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-05-05T16:37:57.134804" elapsed="0.001553"/>
+<status status="PASS" start="2025-05-05T16:41:11.435984" elapsed="0.000709"/>
 </kw>
-<status status="PASS" start="2025-05-05T16:37:57.133686" elapsed="0.003105"/>
+<status status="PASS" start="2025-05-05T16:41:11.435137" elapsed="0.001812"/>
+</kw>
+<status status="PASS" start="2025-05-05T16:41:11.433884" elapsed="0.003572"/>
 </test>
-<status status="PASS" start="2025-05-05T16:37:57.072609" elapsed="0.065987"/>
+<status status="PASS" start="2025-05-05T16:41:11.339208" elapsed="0.100010"/>
 </suite>
 <statistics>
 <total>
